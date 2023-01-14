@@ -1,0 +1,229 @@
+.full-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  flex-direction: column;
+}
+
+.actual-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.calendar-container {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
+}
+
+.active-calendar > .day {
+  cursor: pointer;
+}
+
+.active-calendar > .day-1 {
+  cursor: pointer;
+}
+.active-calendar > .day-2 {
+  cursor: pointer;
+}
+.active-calendar > .day-3 {
+  cursor: pointer;
+}
+
+.team-container {
+  display: flex;
+  background-color: #ebecf0;
+  width: 40%;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.team-heading {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.team-member {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.selected-team-member {
+  border-style: solid;
+  border-color: #0052cc;
+}
+
+.day {
+  height: 80px;
+  border-color: #0052cc;
+  /* border-style: solid; */
+  /* border-radius: 5px; */
+  background-color: #f3e5f5;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% * (1 / 7)) - 2px);
+}
+
+.day-0 {
+  height: 80px;
+  border-color: #0052cc;
+  /* border-style: solid; */
+  /* border-radius: 5px; */
+  background-color: #f5d6d6;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% * (1 / 7)) - 2px);
+}
+.day-1 {
+  height: 80px;
+  border-color: #0052cc;
+  /* border-style: solid; */
+  /* border-radius: 5px; */
+  background-color: #faf0d7;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% * (1 / 7)) - 2px);
+}
+.day-2 {
+  height: 80px;
+  border-color: #0052cc;
+  /* border-style: solid; */
+  /* border-radius: 5px; */
+  background-color: #cbd8e0;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% * (1 / 7)) - 2px);
+}
+.day-val {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 18px;
+  color: #0052cc;
+  width: 45%;
+  /* margin: 0px 30px 0px 30px; */
+}
+
+.leave-day > .day-val {
+  /* background-color: #e1f85d80; */
+  border: red;
+  border-style: double;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.holiday-day {
+  background-color: #5de4b58e;
+  pointer-events: none;
+}
+
+.unclickable-day {
+  pointer-events: none;
+}
+
+.save-leaves {
+  margin: 20px 50px 20px 50px;
+  background-color: #0052cc;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  color: white;
+  cursor: pointer;
+}
+
+.hide-save-leaves {
+  display: none;
+}
+
+.team-notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 12%;
+  left: 45%;
+  width: 15%;
+  height: 50px;
+  background-color: #00cc83;
+  border-radius: 10px;
+  z-index: 100;
+  color: white;
+  font-family: "Poppins";
+}
+
+.team-notification-hidden {
+  display: none;
+}
+
+.non-pi-day {
+  background-color: #cccccc;
+  opacity: 0.3;
+  border-color: #cccccc;
+  cursor: none;
+  pointer-events: none;
+}
+
+.pi-day {
+  cursor: pointer;
+}
+
+.day-head {
+  border-color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.day-heading-day {
+  height: 40px;
+  /* border-style: solid; */
+  /* border-radius: 5px; */
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% * (1 / 7)) - 2px);
+  background-color: #000000;
+  border-color: white;
+  color: white;
+  position: relative;
+}
+
+.day-detail {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 50;
+  background-color: white;
+  font-size: 13px;
+  padding: 2px 5px 2px 5px;
+}
+
+.day-heading-day:hover > .day-detail {
+  color: #0052cc;
+  display: block;
+}

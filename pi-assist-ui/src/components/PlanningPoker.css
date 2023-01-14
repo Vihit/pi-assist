@@ -1,0 +1,152 @@
+.planning-container {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
+}
+
+.story-planning-title {
+  background-color: #ebecf0;
+  width: 100%;
+  padding: 3%;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #0052cc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-estimate {
+  font-family: "Poppins";
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00cc83;
+}
+
+.story-estimate-cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.estimate-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
+  height: 150px;
+  width: 100px;
+  border-style: double;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  border-color: #0052cc;
+  font-family: "Poppins";
+  cursor: pointer;
+  top: -100vh;
+  left: -100vw;
+}
+
+.folded {
+  animation: fold 2s forwards;
+  cursor: pointer;
+  background-image: url("../../public/cards-bg.jpg");
+  background-size: 200%;
+  border-style: solid;
+  border-color: white;
+  color: transparent;
+}
+
+.unfolded {
+  /* animation: unfold 2s reverse; */
+  transition: transform 1s;
+}
+
+@keyframes unfold {
+  100% {
+    transform: rotateY(0deg);
+  }
+  0% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes fold {
+  0% {
+    transform: translateX(-100vw) rotateZ(0deg);
+  }
+  100% {
+    transform: translateX(0%) rotateZ(360deg);
+  }
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.poker-button {
+  margin-right: 1%;
+  margin-left: 1%;
+  background-color: #0052cc;
+  width: 85px;
+  padding: 10px;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.estimator {
+  font-size: 15px;
+}
+
+.member {
+  width: 100%;
+}
+
+.green {
+  border-color: #00cc83;
+  border-style: solid;
+}
+
+.live-member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-style: solid;
+  border-color: white;
+  margin-right: 10px;
+  border-radius: 100%;
+  color: white;
+}
+
+.offline {
+  font-size: 16px;
+  color: white;
+  background-color: white;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #cccccc6e;
+  border-width: 2px;
+}
+
+.online {
+  font-size: 20px;
+  color: #00cc83;
+}

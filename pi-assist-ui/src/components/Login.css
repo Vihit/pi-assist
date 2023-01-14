@@ -1,0 +1,96 @@
+.login-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #e269b7,
+    #b05ac3,
+    #8f56c7,
+    #0052cc,
+    #0052cc
+  );
+  height: 90%;
+}
+
+.scrum-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+.login-screen {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.scrum-svg > img {
+  object-fit: cover;
+  max-width: 70%;
+}
+
+.login-screen > div {
+  padding: 20px;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+}
+
+.control {
+  padding-bottom: 20px;
+  width: 60%;
+  align-self: center;
+}
+
+.login-header {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.control > input {
+  height: 30px;
+  width: 100%;
+  border-radius: 25px;
+  border-color: #ffffff;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bolder;
+  color: #cccccc;
+  letter-spacing: 1px;
+}
+
+input {
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+  border-color: #ffffff;
+  font-weight: bolder;
+  color: #0052cc;
+}
+
+.submit {
+  border-radius: 1px;
+  text-align: center;
+  align-self: center;
+}

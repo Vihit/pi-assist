@@ -1,0 +1,313 @@
+.pi-details-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  border-color: #0052cc;
+  border-style: solid;
+  padding: 10px 5px 10px 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.wrapped {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.actual-container-pi {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.chart-container {
+  /* width: 29%; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.label-pi {
+  font-family: "Poppins";
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.save-btn-pi {
+  background-color: #00cc83;
+  padding: 5px 8px 5px 8px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: white;
+}
+
+::placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.team-container-pi {
+  display: flex;
+  background-color: #ebecf0;
+  /* width: 15%; */
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 20px;
+}
+
+.team-member-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.team-member-detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.team-member-pi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  width: 30%;
+  padding: 0px 5px 0px 5px;
+  height: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.team-member-pi-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #0052cc;
+  color: white;
+  width: 30%;
+  height: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.team-member-pi-detail {
+  height: 100%;
+}
+
+.team-member-pi-detail > input {
+  height: 100%;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
+  width: auto;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.team-member-pi-detail-head {
+  height: 100%;
+}
+
+.team-member-pi-detail-head > input {
+  height: 100%;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
+  width: auto;
+  font-weight: bold;
+  color: white;
+  background-color: #0052cc;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.team-member-pi-detail > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 10px;
+  opacity: 1; /* Firefox */
+}
+
+.team-member-pi-detail > input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 13px;
+}
+
+.team-member-pi-detail > input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 13px;
+}
+
+.team-member-pi-detail > select {
+  height: 100%;
+  padding: 0px;
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.sprint-detail {
+  height: 100%;
+}
+.sprint-detail > input {
+  height: 100%;
+  width: auto;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.sprint-detail-head {
+  height: 100%;
+}
+
+.sprint-detail-head > input {
+  height: 100%;
+  width: auto;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+  background-color: #0052cc;
+  color: white;
+  font: "Poppins";
+}
+
+.sprint-detail > select {
+  height: 100%;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.percent {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.miscellaneous-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 40%; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sprint-container {
+  display: flex;
+  background-color: #ebecf0;
+  /* width: 30%; */
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-save {
+  background-color: #00cc83;
+  padding: 5px 10px 5px 10px;
+  font-family: "Poppins";
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.hide-add-sprint {
+  display: none;
+}
+
+.add-sprint-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px 5px 10px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #00cc83;
+  font-family: "Poppins";
+  color: white;
+  cursor: pointer;
+}
+
+.support-container {
+  display: flex;
+  background-color: #ebecf0;
+  /* //width: 50%; */
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 20px;
+}
+
+.btn-delete-pi {
+  margin: 20px 5px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-delete-pi > i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ff5f5f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+.team-member-pi-detail > select {
+  margin-left: 5px;
+}

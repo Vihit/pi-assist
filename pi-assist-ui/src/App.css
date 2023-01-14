@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #0052cc;
+}
+
+a:visited {
+  color: #0052cc;
+}
